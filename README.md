@@ -10,4 +10,5 @@ mobile (iPhone) version of your site.
 
 ## Installation
 
-    gem install capybara-iphone
+    rake build
+    gem install pkg/capybara-iphone-VERSION.gem
