@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.name        = "capybara-iphone"
   s.version     = Capybara::Iphone::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = []
-  s.email       = []
+  s.authors     = ["Ryan Burrows"]
+  s.email       = ["rhburrows@gmail.com"]
   s.homepage    = "http://rubygems.org/gems/capybara-iphone"
   s.summary     = "A capybara driver that acts like an iPhone"
   s.description =
