@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://rubygems.org/gems/capybara-iphone"
   s.summary     = "A capybara driver that acts like an iPhone"
   s.description =
-    "A drivier for capybara to test your rack application as an iPhone"
+    "A driver for capybara to test your rack application as an iPhone"
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "capybara-iphone"
