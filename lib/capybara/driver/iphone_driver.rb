@@ -1,4 +1,4 @@
-require 'capybara/driver/rack_test_driver'
+require 'capybara/rack_test/driver'
 
 module Capybara::Driver
   class Iphone < RackTest
