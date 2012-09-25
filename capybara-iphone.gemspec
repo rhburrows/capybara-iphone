@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "capybara-iphone"
 
-  s.add_dependency("capybara", [">=0.3.9"])
+  s.add_dependency("capybara", [">= 1.1"])
 
-  s.add_development_dependency("rspec", [">= 2.0.0"])
-  s.add_development_dependency("sinatra", [">= 0.9.4"])
+  s.add_development_dependency("rspec", [">= 2.11.0"])
+  s.add_development_dependency("sinatra", [">= 1.2"])
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map do |f|
